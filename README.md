@@ -1,4 +1,3 @@
-# Multi_Card_Infer DDP Based
 RTX4090 x 8 
 
 # Multi-GPU Image Understanding System 🖼️⚡
