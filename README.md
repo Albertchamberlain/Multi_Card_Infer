@@ -37,12 +37,40 @@ cd multi-card-infer-ddp
 pip install -r requirements.txt
 ```
 
-准备Qwen-VL模型 (需自行获取)
+准备Qwen-VL-Chat模型 (需自行获取)
 
 ```shell
 mkdir -p /root/workspace/Qwen_Model/Qwen/
 将模型文件放入 /root/workspace/Qwen_Model/Qwen/Qwen-VL-Chat 目录
 ```
+
+## TODO List 📝
+
+- [ ] 优化内存使用
+  - [ ] 实现动态批处理大小调整
+  - [ ] 添加内存监控和自动清理机制
+  - [ ] 优化模型加载策略
+
+- [ ] 增强错误处理
+  - [x] 添加更详细的错误分类和处理
+  - [x] 实现智能重试机制
+  - [x] 完善错误日志记录
+
+- [ ] 改进输出格式
+  - [ ] 支持多种输出格式(JSON/XML/YAML)
+  - [ ] 添加结果验证机制
+  - [x] 优化CSV输出结构
+
+- [ ] 性能优化
+  - [ ] 实现动态负载均衡
+  - [ ] 优化GPU利用率
+  - [ ] 添加性能监控指标
+
+- [ ] 功能扩展
+  - [ ] 支持更多视觉模型
+  - [ ] 添加批量处理功能
+  - [ ] 实现Web界面管理
+
 
 ![Print](./image.png)
 
