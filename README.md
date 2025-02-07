@@ -26,20 +26,24 @@ RTX4090 x 8
 - Python 3.8+
 
 ### 安装步骤
-克隆仓库
-'''shell
+
+```shell
 git clone https://github.com/yourusername/multi-card-infer-ddp.git
 cd multi-card-infer-ddp
-'''
+```
+
 安装依赖
-'''shell
+
+```shell
 pip install -r requirements.txt
-'''
+```
+
 准备Qwen-VL模型 (需自行获取)
-'''shell
+
+```shell
 mkdir -p /root/workspace/Qwen_Model/Qwen/
 将模型文件放入 /root/workspace/Qwen_Model/Qwen/Qwen-VL-Chat 目录
-'''
+```
 
 ![Print](./image.png)
 
