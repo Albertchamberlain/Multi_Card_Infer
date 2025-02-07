@@ -9,8 +9,6 @@ RTX4090 x 8
 
 基于分布式数据并行（DDP）的多GPU图像内容理解系统，使用Qwen-VL大模型进行旅游景点图片分析，生成结构化描述数据。
 
-![System Architecture](./0.jpg)
-*图1: 系统架构图*
 
 ## 主要特性 ✨
 
@@ -42,6 +40,8 @@ pip install -r requirements.txt
 mkdir -p /root/workspace/Qwen_Model/Qwen/
 将模型文件放入 /root/workspace/Qwen_Model/Qwen/Qwen-VL-Chat 目录
 '''
+
+![Print](./image.png)
 
 ![Begin](./0.jpg) 
 
