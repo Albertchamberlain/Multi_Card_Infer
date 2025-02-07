@@ -24,7 +24,7 @@ RTX4090 x 8
 - CUDA 11.7+
 - Python 3.8+
 
-### 安装步骤
+### 安装步骤 ⚙️
 
 ```shell
 git clone https://github.com/yourusername/multi-card-infer-ddp.git
