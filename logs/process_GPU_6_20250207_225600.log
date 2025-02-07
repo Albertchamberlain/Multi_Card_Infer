@@ -1,0 +1,26 @@
+2025-02-07 22:56:50,012 - INFO - Successfully initialized model on GPU 6
+2025-02-07 22:56:50,186 - INFO - GPU 6 processing 8078 images
+2025-02-07 22:57:48,168 - INFO - GPU 6 processed 10 images
+2025-02-07 22:58:36,263 - INFO - GPU 6 processed 20 images
+2025-02-07 22:59:30,272 - INFO - GPU 6 processed 30 images
+2025-02-07 23:00:24,916 - INFO - GPU 6 processed 40 images
+2025-02-07 23:00:57,438 - ERROR - Failed to process /root/workspace/dataset/combined_Australia/62971228@N02/5738570688.jpg: cannot identify image file '/root/workspace/dataset/combined_Australia/62971228@N02/5738570688.jpg'
+2025-02-07 23:00:57,441 - ERROR - Failed to process /root/workspace/dataset/combined_Australia/62971228@N02/5738569572.jpg: cannot identify image file '/root/workspace/dataset/combined_Australia/62971228@N02/5738569572.jpg'
+2025-02-07 23:00:57,444 - ERROR - Failed to process /root/workspace/dataset/combined_Australia/62971228@N02/5738581542.jpg: cannot identify image file '/root/workspace/dataset/combined_Australia/62971228@N02/5738581542.jpg'
+2025-02-07 23:00:57,447 - ERROR - Failed to process /root/workspace/dataset/combined_Australia/24144028@N00/77497169.jpg: cannot identify image file '/root/workspace/dataset/combined_Australia/24144028@N00/77497169.jpg'
+2025-02-07 23:01:15,391 - INFO - GPU 6 processed 50 images
+2025-02-07 23:02:17,965 - INFO - GPU 6 processed 60 images
+2025-02-07 23:03:12,559 - INFO - GPU 6 processed 70 images
+2025-02-07 23:04:14,333 - INFO - GPU 6 processed 80 images
+2025-02-07 23:05:06,967 - INFO - GPU 6 processed 90 images
+2025-02-07 23:06:04,966 - INFO - GPU 6 processed 100 images
+2025-02-07 23:06:55,719 - INFO - GPU 6 processed 110 images
+2025-02-07 23:07:46,270 - INFO - GPU 6 processed 120 images
+2025-02-07 23:08:38,336 - ERROR - Failed to process /root/workspace/dataset/combined_Australia/81896263@N00/4790186282.jpg: cannot identify image file '/root/workspace/dataset/combined_Australia/81896263@N00/4790186282.jpg'
+2025-02-07 23:08:43,679 - INFO - GPU 6 processed 130 images
+2025-02-07 23:09:23,171 - INFO - GPU 6 processed 140 images
+2025-02-07 23:10:12,620 - INFO - GPU 6 processed 150 images
+2025-02-07 23:11:04,314 - INFO - GPU 6 processed 160 images
+2025-02-07 23:11:56,164 - INFO - GPU 6 processed 170 images
+2025-02-07 23:12:51,580 - INFO - GPU 6 processed 180 images
+2025-02-07 23:13:36,222 - INFO - GPU 6 processed 190 images

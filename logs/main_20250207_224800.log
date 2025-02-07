@@ -1,0 +1,5 @@
+2025-02-07 22:48:00,180 - ERROR - Fatal error in main: name 'torch' is not defined
+Traceback (most recent call last):
+  File "/root/workspace/MultiCard/main.py", line 41, in main
+    world_size = torch.cuda.device_count()
+NameError: name 'torch' is not defined

@@ -1,0 +1,63 @@
+2025-02-07 22:48:27,862 - INFO - Found 8 GPU devices
+2025-02-07 22:48:34,688 - ERROR - Fatal error in main: 
+
+-- Process 4 terminated with the following error:
+Traceback (most recent call last):
+  File "/root/workspace/MultiCard/distributed_generator.py", line 141, in process_dataset_distributed
+    generator = DistributedImageDescriptionGenerator(rank, world_size)
+  File "/root/workspace/MultiCard/distributed_generator.py", line 26, in __init__
+    self.model = QwenModel(rank)
+  File "/root/workspace/MultiCard/model_handler.py", line 10, in __init__
+    self.init_model()
+  File "/root/workspace/MultiCard/model_handler.py", line 31, in init_model
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 559, in from_pretrained
+    return model_class.from_pretrained(
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3535, in from_pretrained
+    raise ImportError(
+ImportError: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 90, in _wrap
+    fn(i, *args)
+  File "/root/workspace/MultiCard/distributed_generator.py", line 166, in process_dataset_distributed
+    generator.logger.error(f"Error in process_dataset_distributed: {str(e)}")
+UnboundLocalError: local variable 'generator' referenced before assignment
+Traceback (most recent call last):
+  File "/root/workspace/MultiCard/main.py", line 50, in main
+    mp.spawn(
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 328, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 284, in start_processes
+    while not context.join():
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 203, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 4 terminated with the following error:
+Traceback (most recent call last):
+  File "/root/workspace/MultiCard/distributed_generator.py", line 141, in process_dataset_distributed
+    generator = DistributedImageDescriptionGenerator(rank, world_size)
+  File "/root/workspace/MultiCard/distributed_generator.py", line 26, in __init__
+    self.model = QwenModel(rank)
+  File "/root/workspace/MultiCard/model_handler.py", line 10, in __init__
+    self.init_model()
+  File "/root/workspace/MultiCard/model_handler.py", line 31, in init_model
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 559, in from_pretrained
+    return model_class.from_pretrained(
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3535, in from_pretrained
+    raise ImportError(
+ImportError: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/minigptv/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 90, in _wrap
+    fn(i, *args)
+  File "/root/workspace/MultiCard/distributed_generator.py", line 166, in process_dataset_distributed
+    generator.logger.error(f"Error in process_dataset_distributed: {str(e)}")
+UnboundLocalError: local variable 'generator' referenced before assignment
+

@@ -1,0 +1,21 @@
+2025-02-07 22:56:49,421 - INFO - Successfully initialized model on GPU 1
+2025-02-07 22:56:49,625 - INFO - GPU 1 processing 8078 images
+2025-02-07 22:57:53,726 - INFO - GPU 1 processed 10 images
+2025-02-07 22:58:47,391 - INFO - GPU 1 processed 20 images
+2025-02-07 22:59:47,554 - INFO - GPU 1 processed 30 images
+2025-02-07 23:00:44,539 - INFO - GPU 1 processed 40 images
+2025-02-07 23:01:37,229 - INFO - GPU 1 processed 50 images
+2025-02-07 23:02:31,504 - INFO - GPU 1 processed 60 images
+2025-02-07 23:03:22,243 - INFO - GPU 1 processed 70 images
+2025-02-07 23:04:23,225 - INFO - GPU 1 processed 80 images
+2025-02-07 23:05:11,612 - INFO - GPU 1 processed 90 images
+2025-02-07 23:06:07,339 - INFO - GPU 1 processed 100 images
+2025-02-07 23:07:08,947 - INFO - GPU 1 processed 110 images
+2025-02-07 23:08:02,376 - INFO - GPU 1 processed 120 images
+2025-02-07 23:08:59,131 - INFO - GPU 1 processed 130 images
+2025-02-07 23:09:57,896 - INFO - GPU 1 processed 140 images
+2025-02-07 23:10:42,285 - INFO - GPU 1 processed 150 images
+2025-02-07 23:10:42,309 - ERROR - Failed to process /root/workspace/dataset/combined_Australia/29259735@N00/3219220826.jpg: cannot identify image file '/root/workspace/dataset/combined_Australia/29259735@N00/3219220826.jpg'
+2025-02-07 23:11:44,663 - INFO - GPU 1 processed 160 images
+2025-02-07 23:12:35,287 - INFO - GPU 1 processed 170 images
+2025-02-07 23:13:26,399 - INFO - GPU 1 processed 180 images

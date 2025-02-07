@@ -1,0 +1,3 @@
+2025-02-07 22:56:00,160 - INFO - Process 0: Distributed environment initialized
+2025-02-07 22:56:50,176 - INFO - Process 0: Generator initialized
+2025-02-07 22:56:50,176 - INFO - GPU 0 processing Australia data...
