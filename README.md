@@ -7,7 +7,7 @@ RTX4090 x 8
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/get-started/locally/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-基于分布式数据并行（DDP）的多GPU图像内容理解系统，使用Qwen-VL大模型进行旅游景点图片分析，生成结构化描述数据。
+基于分布式数据并行（DDP）的多GPU图像内容理解系统，使用Qwen-VL-Chat对图片进行分析，生成结构化描述数据。
 
 
 ## 主要特性 ✨
