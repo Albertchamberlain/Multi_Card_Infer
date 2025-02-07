@@ -44,6 +44,10 @@ mkdir -p /root/workspace/Qwen_Model/Qwen/
 将模型文件放入 /root/workspace/Qwen_Model/Qwen/Qwen-VL-Chat 目录
 ```
 
+```shell
+python main.py
+```
+
 ## TODO List 📝
 
 - [ ] 优化内存使用
